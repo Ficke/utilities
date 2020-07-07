@@ -7,11 +7,11 @@ row.names <- c("C()BRA", "New Custom","% Gini Improvement")
 col.names <- c("MD", "NCOIL")
 
 MD.fico <- "?"
-MD.CBRA <- 0.15962
-MD.new <- 0.17002
+MD.CBRA <- 0.11
+MD.new <- 0.12
 
-NCOIL.CBRA <- 0.16466
-NCOIL.new <- 0.17463
+NCOIL.CBRA <- 0.13
+NCOIL.new <- 0.14
 
 MD <- 
   c(MD.CBRA, MD.new, 100 * (MD.new - MD.CBRA) / MD.CBRA)
